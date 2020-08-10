@@ -14,7 +14,7 @@
       <social-link
         type="discord"
         name="MJS Server"
-        href="https://www.twitch.tv/mjsdevs"
+        href="https://discord.gg/HnZE7ub"
       />
     </sidebar>
   </div>
