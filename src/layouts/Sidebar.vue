@@ -18,8 +18,14 @@ aside {
   flex-direction: column;
 
   >* {
-    margin-top: 0.2em;
-    margin-bottom: 0.2em;
+    margin: 0.2em 0;
+  }
+
+  @media (max-width: 700px) {
+    flex-direction: row;
+    > * {
+      margin: 0 0.2em;
+    }
   }
 }
 </style>

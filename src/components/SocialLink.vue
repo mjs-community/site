@@ -60,7 +60,7 @@ export default Vue.extend({
 }
 
 .twitch:hover { background: #9147ff }
-.github:hover { background: black; color: white; }
+.github:hover { background: white }
 .medium:hover { background: black; color: white; }
 .discord:hover { background: #3264EA; color: white; }
 
