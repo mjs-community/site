@@ -83,6 +83,7 @@ export default {
     align-items: center;
     font-weight: 500;
     margin-bottom: 0;
+
     @media (max-width: 500px) {
       flex-direction: column;
     }
@@ -90,6 +91,9 @@ export default {
 
   .welcome img {
     margin-right: 1em;
+    @media (max-width: 500px) {
+      margin: 0;
+    }
   }
 
   .content {
