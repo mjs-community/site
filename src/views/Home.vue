@@ -1,18 +1,34 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png" />
-    <HelloWorld msg="Welcome to Your Vue.js App" />
+    <sidebar>
+      <social-link
+        type="twitch"
+        name="twitch.tv/mjsdevs"
+        href="https://www.twitch.tv/mjsdevs"
+      />
+      <social-link
+        type="github"
+        name="github.com/mjs-community"
+        href="https://www.github.com/mjs-community"
+      />
+      <social-link
+        type="discord"
+        name="MJS Server"
+        href="https://www.twitch.tv/mjsdevs"
+      />
+    </sidebar>
   </div>
 </template>
 
-<script>
-// @ is an alias to /src
-import HelloWorld from "@/components/HelloWorld.vue";
+<script lang="ts">
+import SocialLink from "@/components/SocialLink.vue";
+import Sidebar from '@/layouts/Sidebar.vue';
 
 export default {
   name: "Home",
   components: {
-    HelloWorld
+    Sidebar,
+    SocialLink,
   }
 };
 </script>
